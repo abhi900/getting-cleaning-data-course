@@ -24,9 +24,15 @@ My solution
 To run the analysis, perform the following steps:
 
 Unzip the file getdata-projectfiles-UCI HAR Dataset.zip in your working directory.
+
 Place the scripts run_analysis.R, analysis_functions.R and constants.R in your working directory.
+
 If necessary, modify the file constants.R indicating the name of the directory containing the data, if it has been modified, and / or the delimiting character for your filesystem.
+
 Load the source run_analysis.R at your session in R, with source("run_analysis.R")
+
 Finally, execute run.analysis() in R.
+
 Be sure to have installed the packages data.table, plyr and reshape2.
+
 run.analysis() uses the constants defined in constants.R and the functions from analysis_functions.R, and generates a file called new_dataset.txt in your working directory.
